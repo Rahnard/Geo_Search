@@ -62,11 +62,10 @@ ul{
     height: 35px;
     max-width: 35px;
     float: left;
-    margin: 20px 30px;
+    margin: 30px 30px;
     border-radius: 50px;
     background-color: #ffffff00;
     border: none;
-    /* display: inherit; */
 }
 
 #weather_icons #weather_icons_results img {
