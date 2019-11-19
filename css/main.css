@@ -1,0 +1,74 @@
+/*Global*/
+body{
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+#map_container{
+    min-width:100%;
+    min-height:768px;
+    position: static;
+}
+
+#search_container{
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    margin: 50px 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search_container input{
+    width: 500px;
+    height: inherit;
+    border: black;
+    border-bottom-color: black;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+#search_input_button{
+    height: inherit;
+    width: 50px;
+    margin: px 10px;
+    border: none;
+    background-color: #7604ff;
+}
+
+#weather_icons{
+    margin-top: 5px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+#hud_container{
+    width: auto;
+    height: auto;
+    margin: 0px 0px 0px 10px;
+    float: left;
+}
+
+#weather_icons #weather_icons_results{
+    height: 35px;
+    max-width: 35px;
+    float: left;
+    margin: 20px 30px;
+    border-radius: 50px;
+    background-color: #ffffff00;
+    border: none;
+    /* display: inherit; */
+}
+
+#weather_icons #weather_icons_results img {
+  width:35px;
+}
